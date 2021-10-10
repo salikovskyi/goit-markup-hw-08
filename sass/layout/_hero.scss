@@ -1,7 +1,7 @@
 .hero {
   padding: 118px 0;
   background-color: #2f303a;
-  background-image: url(../../images/hero/mobile-hero.jpg);
+  background-image: url(../images/hero/mobile-hero.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -9,13 +9,13 @@
 
 @media screen and (min-width: 768px) {
   .hero {
-    background-image: url(../../images/hero/tablet-hero.jpg);
+    background-image: url(../images/hero/tablet-hero.jpg);
   }
 }
 
 @media screen and (min-width: 1200px) {
   .hero {
-    background-image: url(../../images/hero/desctop-hero.jpg);
+    background-image: url(../images/hero/desctop-hero.jpg);
     padding: 200px 0;
   }
 }
