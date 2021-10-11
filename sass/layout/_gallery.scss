@@ -85,6 +85,12 @@
   transform: translateY(101%);
 }
 
+@media screen and (max-width: 1119px) {
+  .overlay {
+    display: none;
+  }
+}
+
 .top {
   height: 100%;
   width: 100%;

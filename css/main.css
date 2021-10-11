@@ -296,7 +296,7 @@ p:last-child {
 .modal {
   position: relative;
   margin: auto;
-  width: 96vw;
+  width: 100%;
   max-width: 450px;
   height: 100vh;
   max-height: 610px;
@@ -1144,6 +1144,12 @@ address {
   opacity: 0;
   padding: 63px 24px;
   transform: translateY(101%);
+}
+
+@media screen and (max-width: 1119px) {
+  .overlay {
+    display: none;
+  }
 }
 
 .top {
