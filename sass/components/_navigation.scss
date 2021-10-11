@@ -41,6 +41,12 @@
   }
 }
 
+@media screen and (max-width: 1119px) {
+  .link.current::after {
+    bottom: -34.5px;
+  }
+}
+
 .contact {
   color: #757575;
   text-decoration: none;
@@ -56,10 +62,6 @@
   &:focus {
     color: #2196f3;
   }
-}
-
-.contact-info-item:not(:first-child) {
-  margin-left: 50px;
 }
 
 .contact-info-icon-envelope,

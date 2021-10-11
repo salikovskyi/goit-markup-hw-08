@@ -7,15 +7,38 @@
   background-position: center;
 }
 
+@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .her0 {
+    background-image: url(../images/hero/hero-mobile2x.jpg);
+  }
+}
+
 @media screen and (min-width: 768px) {
   .hero {
     background-image: url(../images/hero/tablet-hero.jpg);
   }
 }
 
+@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: url(../images/hero/hero-tablet2x.jpg);
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .hero {
     background-image: url(../images/hero/desctop-hero.jpg);
+    padding: 200px 0;
+  }
+}
+
+@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: url(../images/hero/hero-desctop2x.jpg);
     padding: 200px 0;
   }
 }
