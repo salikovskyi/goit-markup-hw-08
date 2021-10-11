@@ -644,7 +644,7 @@ p:last-child {
 }
 
 @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-  .her0 {
+  .hero {
     background-image: url(../images/hero/hero-mobile2x.jpg);
   }
 }
@@ -655,7 +655,7 @@ p:last-child {
   }
 }
 
-@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .hero {
     background-image: url(../images/hero/hero-tablet2x.jpg);
   }
@@ -668,7 +668,7 @@ p:last-child {
   }
 }
 
-@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .hero {
     background-image: url(../images/hero/hero-desctop2x.jpg);
     padding: 200px 0;
@@ -1009,6 +1009,10 @@ address {
     align-items: flex-start;
     margin-bottom: 0;
   }
+}
+
+.footer-social-network {
+  margin-bottom: 60px;
 }
 
 .button-section {
